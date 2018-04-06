@@ -1,0 +1,8 @@
+package speechPackage;
+
+syntax = "proto3";
+
+message Speech {
+     optional string userId = 1; // becomes awesomeField
+     optional string signal= 2;
+}
